@@ -154,3 +154,6 @@ nnoremap <leader>l :TagbarToggle<CR>
 imap <S-CR>    <CR><CR>end<Esc>-cc
 
 color xoria256
+
+
+let g:Powerline_symbols = 'fancy'
