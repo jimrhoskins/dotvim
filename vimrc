@@ -152,3 +152,5 @@ nnoremap <leader>l :TagbarToggle<CR>
 
 " Ruby.vim settings
 imap <S-CR>    <CR><CR>end<Esc>-cc
+
+color xoria256
