@@ -78,7 +78,11 @@ au FileType make                                     set noexpandtab
 " Thorfile, Rakefile, Vagrantfile and Gemfile are Ruby
 au BufRead,BufNewFile {Guardfile,Gemfile,Rakefile,Vagrantfile,Thorfile,config.ru}    set ft=ruby
 
+" Coffeescript
 au BufRead,BufNewFile *.coffee set ft=coffee
+
+"json
+au BufRead,BufNewFile *.json set ft=javascript
 
 " md, markdown, and mk are markdown and define buffer-local preview
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()

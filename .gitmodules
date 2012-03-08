@@ -34,9 +34,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "vim-yankring"]
-	path = bundle/vim-yankring
-	url = git://github.com/chrismetcalf/vim-yankring.git
 [submodule "bundle/align"]
 	path = bundle/align
 	url = git://github.com/tsaleh/vim-align.git
@@ -61,3 +58,6 @@
 [submodule "bundle/unimpaired"]
 	path = bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/less"]
+	path = bundle/less
+	url = https://github.com/groenewege/vim-less.git
