@@ -1,3 +1,4 @@
+let g:Powerline_symbols = 'unicode'
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -162,4 +163,3 @@ imap <S-CR>    <CR><CR>end<Esc>-cc
 color xoria256
 
 
-let g:Powerline_symbols = 'fancy'
