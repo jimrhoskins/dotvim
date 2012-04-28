@@ -58,6 +58,10 @@ if has("autocmd")
     \| exe "normal g'\"" | endif
 endif
 
+
+" DASM ASM
+au BufRead,BufNewFile *.dasm setfiletype asm
+
 if has("autocmd")
   filetype plugin indent on
 endif
