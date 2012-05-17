@@ -10,6 +10,7 @@ set number
 set ruler
 syntax on
 
+let maplocalleader=","
 " Set encoding
 set encoding=utf-8
 
@@ -50,7 +51,7 @@ map <Leader>b :BufExplorer<CR>
 let g:CommandTMaxHeight=14
 
 " CTags
-map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+"map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 
 " Remember last location in file
 if has("autocmd")
