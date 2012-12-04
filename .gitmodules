@@ -67,3 +67,6 @@
 [submodule "bundle/clojure"]
 	path = bundle/clojure
 	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "bundle/stylus"]
+	path = bundle/stylus
+	url = https://github.com/wavded/vim-stylus.git
