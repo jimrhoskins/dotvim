@@ -1,4 +1,4 @@
-let g:Powerline_symbols = 'unicode'
+let g:Powerline_symbols = 'fancy'
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -171,4 +171,8 @@ imap <S-CR>    <CR><CR>end<Esc>-cc
 
 color xoria256
 
+au BufNewFile,BufRead *.jbuilder	set filetype=ruby
+
+let g:Powerline_symbols = 'fancy'
+python from powerline.bindings.vim import source_plugin; source_plugin()
 
