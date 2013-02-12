@@ -174,5 +174,6 @@ color xoria256
 au BufNewFile,BufRead *.jbuilder	set filetype=ruby
 
 let g:Powerline_symbols = 'fancy'
-python from powerline.bindings.vim import source_plugin; source_plugin()
+"python from powerline.bindings.vim import source_plugin; source_plugin()
 
+set rtp+=/usr/local/powerline/lib/python2.7/site-packages/powerline/bindings/vim
