@@ -34,6 +34,7 @@ set smartcase
 
 " Turn off highlight after search
 map <Leader>nh :silent noh<CR>
+map <Leader>p :set paste!<CR>
 
 " Tab completion
 set wildmode=list:longest,list:full
@@ -177,3 +178,11 @@ let g:Powerline_symbols = 'fancy'
 "python from powerline.bindings.vim import source_plugin; source_plugin()
 
 set rtp+=/usr/local/powerline/lib/python2.7/site-packages/powerline/bindings/vim
+
+"eco support for ect
+au BufNewFile,BufRead *.ect setfiletype eco
+au BufNewFile,BufRead *.hbs setfiletype html
+au BufNewFile,BufRead *.ejs setfiletype html
+
+"autoformat go on save
+autocmd FileType go autocmd BufWritePre <buffer> Fmt
