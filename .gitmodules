@@ -85,3 +85,12 @@
 [submodule "bundle/snippets"]
 	path = bundle/snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/bling/vim-airline.git
+[submodule "bundle/tmuxline"]
+	path = bundle/tmuxline
+	url = https://github.com/edkolev/tmuxline.vim
+[submodule "bundle/promptline"]
+	path = bundle/promptline
+	url = https://github.com/edkolev/promptline.vim.git
