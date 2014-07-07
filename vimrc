@@ -184,8 +184,7 @@ au BufNewFile,BufRead *.ect setfiletype eco
 au BufNewFile,BufRead *.hbs setfiletype html
 au BufNewFile,BufRead *.ejs setfiletype html
 
-"autoformat go on save
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
+au BufNewFile,BufRead *.eye setfiletype ruby
 
 
 let g:airline_theme='badwolf'
@@ -223,7 +222,7 @@ let g:airline_symbols.whitespace = 'Ξ'
 let g:airline_left_sep='┣'
 let g:airline_right_sep='┫'
 
-
+let g:go_fmt_command = "gofmt"
 " badwold
 " bubblegum - muted green
 " power linish- std
